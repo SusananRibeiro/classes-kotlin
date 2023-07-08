@@ -1,4 +1,5 @@
 package classes
+// "(var dia: Int, var mes: Int, var ano: Int)" é o que vai definir o método construtor
 class Data(var dia: Int, var mes: Int, var ano: Int) {
     fun formatar(): String {
         return "$dia/$mes/$ano"
